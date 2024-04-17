@@ -1,4 +1,6 @@
 import "./App.css";
+import Astronaut_glb from "./assets/Astronaut.glb";
+// import Astronaut_usdz from "./assets/Astronaut.usdz";
 
 function App() {
   return (
@@ -7,8 +9,8 @@ function App() {
         className="test"
         id="hotspot-demo"
         height="500"
-        src="../src/assets/Astronaut.glb"
-        ios-src="../src/assets/Astronaut.usdz"
+        src={Astronaut_glb}
+        // ios-src={Astronaut_usdz}
         alt="A 3D model of an astronaut"
         ar
         auto-rotate
